@@ -37,7 +37,7 @@ class MetingJSElement extends HTMLElement {
     }
     this.config = config
 
-    this.api = this.meta.api || window.meting_api || 'https://api-meting.deep-sea.ggff.net/api?server=:server&type=:type&id=:id'
+    this.api = this.meta.api || window.meting_api || 'https://api-meting.deep-sea.filegear-sg.me/api?server=:server&type=:type&id=:id'
     if (this.meta.auto) this._parse_link()
   }
 
